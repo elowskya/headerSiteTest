@@ -1,0 +1,31 @@
+body {
+    display: flexbox;
+}
+
+.jumbotron {
+    height: 95vh;
+}
+
+nav {
+    height: 10vh;
+    background-color: beige;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 5vh; 
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    height: 20vh;
+    background-color: beige;
+}
