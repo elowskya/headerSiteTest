@@ -1,24 +1,51 @@
 body {
-    display: flexbox;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .jumbotron {
     height: 95vh;
+    background-image: url("https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.navHeader {
+    color: #39FF14;
+    font-size: 15vh;
+    padding-top: 12%;
 }
 
 nav {
     height: 10vh;
-    background-color: beige;
+    padding-top: 4%;
 }
 
 ul {
-    text-align: right;
+    text-align: center;
 }
 
 li {
     display: inline-block;
     vertical-align: middle;
-    padding-top: 5vh; 
+    padding: 5%;
+}
+
+a {
+    color: white;
+    font-size: 5vh;
+    font-weight: 600;
+    border: solid 2px white;
+}
+
+a:hover {
+    color: #39FF14;
+    text-decoration: none;
+    border: #39FF14 solid 2px;
 }
 
 h1 {
