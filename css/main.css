@@ -17,10 +17,21 @@ body {
 .navHeader {
     color: #39FF14;
     font-size: 15vh;
-    padding-top: 12%;
+    padding-top: 9%;
 }
 
-nav {
+.behindText {
+    position:absolute;
+    top: 30vh;
+    left:140px;
+    width:80%;
+    height:10%;
+    background-color:black;
+    z-index:0;
+    opacity:0.5;
+}
+
+navbar {
     height: 10vh;
     padding-top: 4%;
 }
@@ -32,19 +43,22 @@ ul {
 li {
     display: inline-block;
     vertical-align: middle;
-    padding: 5%;
+    padding: 3%;
+    /* border: solid 2px white; */
+    background-color: black;
 }
 
 a {
     color: white;
     font-size: 5vh;
     font-weight: 600;
-    border: solid 2px white;
 }
 
 a:hover {
     color: #39FF14;
-    text-decoration: none;
+    text-decoration: #39FF14 underline;
+}
+li:hover {
     border: #39FF14 solid 2px;
 }
 
