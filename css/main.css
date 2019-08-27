@@ -1,4 +1,81 @@
-body {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 17px;
+    overflow-x: hidden;
+  }
+  
+  #myVideo {
+    position: top;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 95%;
+  }
+  
+  .content {
+    position: sticky;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  navbar {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul {
+    text-align: right;
+    padding-right: 1%;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.5%;
+}
+
+a {
+    color: white;
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #39FF14;
+    text-decoration:none;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* body {
     margin: 0;
     padding: 0;
     
@@ -11,62 +88,45 @@ body {
     background-position: left bottom;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .navHeader {
     color: #39FF14;
     font-size: 15vh;
-    padding-top: 9%;
-}
+    padding-top: 12%;
+    text-shadow: 10px 2px 3px black;
+ }
 
-.behindText {
-    position:absolute;
-    top: 30vh;
-    left:140px;
-    width:80%;
-    height:10%;
-    background-color:black;
-    z-index:0;
-    opacity:0.5;
-}
-
-navbar {
-    height: 10vh;
-    padding-top: 4%;
-}
-
-ul {
+h2 {
     text-align: center;
-}
+    color: whitesmoke;
+    text-shadow: 10px 2px 3px black;
 
-li {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 3%;
-    /* border: solid 2px white; */
-    background-color: black;
-}
-
-a {
-    color: white;
-    font-size: 5vh;
-    font-weight: 600;
-}
-
-a:hover {
-    color: #39FF14;
-    text-decoration: #39FF14 underline;
-}
-li:hover {
-    border: #39FF14 solid 2px;
-}
-
-h1 {
-    text-align: center;
 }
 
 footer {
     height: 20vh;
     background-color: beige;
-}
+} */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+   
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+    
+  }
