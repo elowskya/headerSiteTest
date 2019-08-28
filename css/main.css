@@ -116,7 +116,47 @@ footer {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-   
+  ul {
+    background-color: black;
+    text-align: center;
+    padding-right: 10vw;
+  }
+  a {
+    font-size: 3vh;
+  }
+
+  video {
+    height: 70vh;
+  }
+  .content {
+    position: sticky;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* color: #f1f1f1; */
+    color: green;
+    width: 100%;
+    padding: 20px;
+  }
+  p {
+    text-align: center;
+  }
+  
+  #myBtn {
+    width: 75px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 40%;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
     
   }
   
@@ -125,8 +165,39 @@ footer {
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 480px) { 
+    #myVideo {
+        position: middle;
+        right: 0;
+        bottom: 0;
+        max-width: 100%; 
+        min-height: 95%;
+      }
+      
+      .content {
+        /* position: sticky; */
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        /* color: #f1f1f1; */
+        color: green;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      #myBtn:hover {
+        background: #ddd;
+        color: black;
+      }
+    }
     
-    
-    
-  }
+  
