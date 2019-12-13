@@ -18,3 +18,9 @@ nav, section, audio, canvas, video {
     margin-top: -5px;
     margin-right: -5px;
 }
+
+.noSpace img:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=100);
+}
+
