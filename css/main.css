@@ -1,0 +1,20 @@
+article, aside, details, figcaption, figure, footer, header, 
+nav, section, audio, canvas, video {
+    display: block;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.noSpace {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+.noSpace img {
+    width: 33vw;
+    margin-top: -5px;
+    margin-right: -5px;
+}
